@@ -1,0 +1,46 @@
+* {
+  margin: 0;
+}
+
+header {
+  height: 40px;
+  width: 100%;
+  background-color: cornflowerblue;
+}
+
+section {
+  width: 100%;
+  text-align: center;
+}
+
+.nav {
+  height: 25vh;
+  background-color: lightblue;
+  line-height: 25vh;
+  color: blue;
+}
+
+.main {
+  height: 50vh;
+  background-color: white;
+  line-height: 50vh;
+  color: grey;
+}
+
+.ads {
+  height: 20vh;
+  background-color: lightgreen;
+  line-height: 20vh;
+  color: green;
+}
+
+@media screen and (min-width: 768px) {
+
+  section {
+
+    width: 33%;
+    display: inline-block;
+  }
+  }
+
+
